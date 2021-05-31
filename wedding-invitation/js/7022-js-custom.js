@@ -237,7 +237,7 @@
 	
 	
 	// CountDown Js
-	var deadline = 'May 22 2021 12:42:00 GMT+530';
+	var deadline = 'Jun 28 2021 12:38:00 GMT+530';
 		function time_remaining(endtime){
 			var t = Date.parse(endtime) - Date.parse(new Date());
 			var seconds = Math.floor( (t/1000) % 60 );
