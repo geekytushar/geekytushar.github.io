@@ -940,7 +940,7 @@ textarea:focus {
 .wd_guest_infobox{
 	float:left;
 	width:100%;
-    padding: 60px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
 }
 .wd_guest_infobox h2{
 	float:left;
