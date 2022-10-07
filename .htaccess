@@ -44,3 +44,8 @@ ExpiresByType image/x-icon "access 1 year"
 ExpiresDefault "access 2 days"
 </IfModule>
 ## EXPIRES CACHING ##
+
+# X-Frame-Options
+<IfModule mod_headers.c>
+	Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
