@@ -54,3 +54,8 @@ ExpiresDefault "access 2 days"
 <IfModule mod_headers.c>
 	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
 </IfModule>
+
+# X-Content-Type-Options
+<IfModule mod_headers.c>
+	Header set X-Content-Type-Options "nosniff"
+</IfModule>
