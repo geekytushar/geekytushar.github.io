@@ -59,3 +59,8 @@ ExpiresDefault "access 2 days"
 <IfModule mod_headers.c>
 	Header set X-Content-Type-Options "nosniff"
 </IfModule>
+
+# Referrer-Policy
+<IfModule mod_headers.c>
+	Header set Referrer-Policy "same-origin"
+</IfModule>
